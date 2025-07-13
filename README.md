@@ -1,1 +1,10 @@
 # Neovim-conf
+## Plugins
+- alpha
+- autopairs
+- blink.cmp
+- conform
+- better-diagnostic-virtual-text
+- lspconfig
+- telescope
+- treesitter
