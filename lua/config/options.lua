@@ -16,3 +16,5 @@ vim.opt.softtabstop = 4
 vim.opt.shiftwidth = 4
 
 vim.o.scrolloff = 8
+
+vim.api.nvim_set_hl(0, "Normal", { bg = "#282A36" })
