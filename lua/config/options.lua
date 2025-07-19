@@ -1,4 +1,3 @@
-vim.opt.termguicolors = true
 vim.opt.clipboard = "unnamedplus"
 vim.opt.cursorline = true
 vim.opt.hlsearch = false
@@ -8,6 +7,7 @@ vim.opt.relativenumber = true
 vim.opt.smoothscroll = true
 vim.opt.ignorecase = true
 vim.opt.smartcase = true
+vim.opt.termguicolors = true
 vim.opt.undofile = true
 vim.opt.swapfile = false
 vim.opt.ttyfast = true
@@ -17,4 +17,4 @@ vim.opt.shiftwidth = 4
 
 vim.o.scrolloff = 8
 
-vim.api.nvim_set_hl(0, "Normal", { bg = "#282A36" })
+vim.api.nvim_set_hl(0, "Normal", { bg = "#282A37" })
