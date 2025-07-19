@@ -1,6 +1,9 @@
 # **Neovim-conf**
 My Neovim config utilising lazy.nvim; it's my first one after going from a preconfigured distro to trying to manage it completely with NixOS, so it's going to be **messy**. At some point, I'll just rewrite all of it, I'm sure, but for now, this is what I'm using.
+
+
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/a2945326-6921-4f08-9e00-52fe86ec6f2b" />
+
 
 ## **File Structure**
 All plugin configs are added to the `lua/plugins` folder and are automatically added with lazy. Keybindings are configured in `config/keymaps.lua`, and default Vim options outside of lazy.nvim are configured in `config/options.lua`.
