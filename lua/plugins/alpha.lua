@@ -7,29 +7,32 @@ return {
 		opts = function()
 			local dashboard = require("alpha.themes.dashboard")
 			local logo = [[
-        ..uu.
-       ?$""`?i           z'
-       `M  .@"          x"
-       'Z :#"  .   .    f 8M
-       '&H?`  :$f U8   <  MP   x#'
-       d#`    XM  $5.  $  M' xM"
-     .!">     @  'f`$L:M  R.@!`
-    +`  >     R  X  "NXF  R"*L
-        k    'f  M   "$$ :E  5.
-        %    `~  "    `  'K  'M
-            .uH          'E   `h
-         .x*`             X     `
-      .uf`                *
-    .@8     .
-   'E9F  uf"          ,     ,
-     9h+"   $M    eH. 8b. .8    .....
-    .8`     $'   M 'E  `R;'   d?"""`"#
-   ` E      @    b  d   9R    ?*     @
-     >      K.zM `%M'   9'    Xf   .f
-    ;       R'          9     M  .=`
-    t                   M     Mx~
-    @                  lR    z"
-    @                  `   ;"
+			..uu.
+		   ?$""`?i           z'
+		   `M  .@"          x"
+		   'Z :#"  .   .    f 8M
+		   '&H?`  :$f U8   <  MP   x#'
+		   d#`    XM  $5.  $  M' xM"
+		 .!">     @  'f`$L:M  R.@!`
+		+`  >     R  X  "NXF  R"*L
+			k    'f  M   "$$ :E  5.
+			%    `~  "    `  'K  'M
+				.uH          'E   `h
+			 .x*`             X     `
+		  .uf`                *
+		.@8     .
+	   'E9F  uf"          ,     ,
+		 9h+"   $M    eH. 8b. .8    .....
+		.8`     $'   M 'E  `R;'   d?"""`"#
+	   ` E      @    b  d   9R    ?*     @
+		 >      K.zM `%M'   9'    Xf   .f
+		;       R'          9     M  .=`
+		t                   M     Mx~
+		@                  lR    z"
+		@                  `   ;"
+
+
+─────────────────────────────────────────────────
     ]]
 
 			vim.api.nvim_set_hl(0, "AlphaHeader", { fg = "#ff5555", bg = "NONE" })

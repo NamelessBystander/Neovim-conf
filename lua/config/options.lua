@@ -1,3 +1,4 @@
+vim.opt.termguicolors = true
 vim.opt.clipboard = "unnamedplus"
 vim.opt.cursorline = true
 vim.opt.hlsearch = false
@@ -5,7 +6,6 @@ vim.opt.mousescroll = "ver:2"
 vim.opt.number = true
 vim.opt.relativenumber = true
 vim.opt.smoothscroll = true
-vim.opt.termguicolors = true
 vim.opt.ignorecase = true
 vim.opt.smartcase = true
 vim.opt.undofile = true
